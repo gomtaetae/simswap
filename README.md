@@ -87,17 +87,3 @@ Bicubic rescale power: 0
 Color degrade power: 0~10
 
 Example Configuration (MergerConfig 00109.jpg)
-
-Mode: overlay
-mask_mode: dst
-erode_mask_modifier: 10
-blur_mask_modifier: 150
-motion_blur_power: 3
-output_face_scale: 5
-color_transfer_mode: rct
-sharpen_mode : gaussian
-blursharpen_amount : 0
-super_resolution_power: 0
-image_denoise_power: 250
-bicubic_degrade_power: 0
-color_degrade_power: 0
