@@ -77,3 +77,8 @@ super_resolution_power: 0
 image_denoise_power: 250
 bicubic_degrade_power: 0
 color_degrade_power: 0
+
+
+## 실행 명령어 (비디오 전환)
+python test_video_swapsingle.py --isTrain false --name 512 --Arc_path ./checkpoints/arcface_checkpoint.tar --pic_a_path ./data/1.jpg --video_path ./data/1-1.mp4 --output_path ./output/result_512.mp4 --temp_path ./temp_results --gpu_ids 0
+
